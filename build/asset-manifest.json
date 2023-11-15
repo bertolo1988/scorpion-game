@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/scorpion-game/static/css/main.03dd0b4e.css",
+    "main.js": "/scorpion-game/static/js/main.ce48b522.js",
+    "static/js/787.e8e9a381.chunk.js": "/scorpion-game/static/js/787.e8e9a381.chunk.js",
+    "static/media/scorpion-1.png": "/scorpion-game/static/media/scorpion-1.cb0ac8e6b3d5a9f2c42d.png",
+    "index.html": "/scorpion-game/index.html",
+    "main.03dd0b4e.css.map": "/scorpion-game/static/css/main.03dd0b4e.css.map",
+    "main.ce48b522.js.map": "/scorpion-game/static/js/main.ce48b522.js.map",
+    "787.e8e9a381.chunk.js.map": "/scorpion-game/static/js/787.e8e9a381.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03dd0b4e.css",
+    "static/js/main.ce48b522.js"
+  ]
+}
