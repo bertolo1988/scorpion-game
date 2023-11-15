@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.03dd0b4e.css",
+    "main.js": "/static/js/main.314532d9.js",
+    "static/js/787.e8e9a381.chunk.js": "/static/js/787.e8e9a381.chunk.js",
+    "static/media/scorpion-1.png": "/static/media/scorpion-1.cb0ac8e6b3d5a9f2c42d.png",
+    "index.html": "/index.html",
+    "main.03dd0b4e.css.map": "/static/css/main.03dd0b4e.css.map",
+    "main.314532d9.js.map": "/static/js/main.314532d9.js.map",
+    "787.e8e9a381.chunk.js.map": "/static/js/787.e8e9a381.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03dd0b4e.css",
+    "static/js/main.314532d9.js"
+  ]
+}
