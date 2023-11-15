@@ -3,8 +3,9 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
+  border-radius: 50%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +36,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.card {
+  margin: 15vh;
+  padding: 5vh;
+  background-color:#4d4a4a;
+  box-shadow: 11px 10px 10px 1px rgb(0, 0 ,0 , 0.22);
+  font-family: "Times New Roman", Times, serif;
 }
