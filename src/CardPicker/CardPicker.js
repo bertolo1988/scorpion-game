@@ -9,6 +9,7 @@ export function CardPicker({ setCardIndex }) {
   return (
     <div>
       <button
+        className="button-20"
         onClick={() => {
           setRandomCardIndex(CardData.length);
         }}
