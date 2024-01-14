@@ -14,7 +14,7 @@ export function CardPicker({ setCardIndex }) {
           setRandomCardIndex(CardData.length);
         }}
       >
-        Clica!
+        Carta !
       </button>
     </div>
   );

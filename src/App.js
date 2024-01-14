@@ -4,7 +4,7 @@ import { Card } from "./Card/Card";
 import { CardData } from "./CardData";
 import { CardPicker } from "./CardPicker/CardPicker";
 
-import logo from "./scorpion-1.png";
+import logo from "./images/scorpion-3.jpeg";
 
 function App() {
   const [cardIndex, setCardIndex] = useState(null);
@@ -17,11 +17,12 @@ function App() {
   }
 
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="App full-height">
+      <header className="App-header full-height">
         {content}
         <CardPicker setCardIndex={setCardIndex} />
       </header>
+      <footer>Wonder Conclusion, Lda</footer>
     </div>
   );
 }

@@ -1,22 +1,70 @@
+html,
+body,
+root {
+  height: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
 .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 30vmin;
+  height: auto;
+  max-width: 98%;
   pointer-events: none;
-  border-radius: 50%;
-  margin: 3vh;
+  margin: 0 2vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+.card {
+  margin: 1vh;
+  padding: 1vh;
+  max-width: 95%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+@media only screen and (min-width: 750px) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    max-width: 85%;
+  }
+
+  .card {
+    margin: 2vh;
+    padding: 2vh;
+    max-width: 85%;
   }
 }
 
+@media only screen and (min-width: 1000px) {
+  .App-logo {
+    max-width: 70%;
+  }
+
+  .card {
+    margin: 3vh;
+    padding: 3vh;
+    max-width: 70%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .App-logo {
+    max-width: 50%;
+  }
+
+  .card {
+    margin: 5vh;
+    padding: 5vh;
+    max-width: 50%;
+  }
+}
+
+
 .App-header {
-  background-color: #282c34;
+  background-color: #0a0a0a;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -34,17 +82,10 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
-}
-
-.card {
-  margin: 3vh;
-  padding: 4vh;
-  background-color:#4d4a4a;
-  box-shadow: 11px 10px 10px 1px rgb(0, 0 ,0 , 0.22);
-  font-family: "Times New Roman", Times, serif;
 }
 
 
@@ -52,24 +93,23 @@
 .button-20 {
   margin-top: 2vh;
   appearance: button;
-  background-color: #4D4AE8;
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, .15), rgba(255, 255, 255, 0));
-  border: 1px solid #4D4AE8;
+  background-color: #c70000;
+  background-image: linear-gradient(180deg, rgba(184, 125, 125, 0.15), rgba(255, 255, 255, 0));
+  border: 1px solid #c70000;
   border-radius: 1rem;
-  box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset,rgba(46, 54, 80, 0.075) 0 1px 1px;
   box-sizing: border-box;
   color: #FFFFFF;
   cursor: pointer;
   display: inline-block;
-  font-family: Inter,sans-serif;
-  font-size: 1rem;
+  font-family: Inter, sans-serif;
+  font-size: 1.2rem;
   font-weight: 500;
   line-height: 1.5;
   margin: 0;
   padding: .5rem 1rem;
   text-align: center;
   text-transform: none;
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: color .20s ease-in-out, background-color .20s ease-in-out, border-color .20s ease-in-out, box-shadow .20s ease-in-out;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
@@ -82,25 +122,24 @@
 }
 
 .button-20:hover {
-  background-color: #3733E5;
-  border-color: #3733E5;
+  background-color: #a30c0c;
+  border-color: #a30c0c;
 }
 
 .button-20:focus {
-  background-color: #413FC5;
-  border-color: #3E3BBA;
-  box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset, rgba(46, 54, 80, 0.075) 0 1px 1px, rgba(104, 101, 235, 0.5) 0 0 0 .2rem;
+  background-color: #c40c0c;
+  border-color: #c40c0c;
 }
 
 .button-20:active {
-  background-color: #3E3BBA;
+  background-color: #a30c0c;
   background-image: none;
-  border-color: #3A38AE;
+  border-color: #a30c0c;
   box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset;
 }
 
 .button-20:active:focus {
-  box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset, rgba(104, 101, 235, 0.5) 0 0 0 .2rem;
+  box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset, rgba(255, 255, 255, 0.5) 0 0 0 .2rem;
 }
 
 .button-20:disabled {
