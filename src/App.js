@@ -22,7 +22,6 @@ function App() {
         {content}
         <CardPicker setCardIndex={setCardIndex} />
       </header>
-      <footer>Wonder Conclusion, Lda</footer>
     </div>
   );
 }
