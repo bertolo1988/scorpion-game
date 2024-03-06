@@ -1,151 +1,49 @@
 html,
 body,
 root {
-  height: 100%;
-  background-color: #0a0a0a;
-}
-
-.full-height {
-  height: 100%;
-}
-
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: auto;
-  max-width: 98%;
-  pointer-events: none;
-  margin: 0 2vh;
-}
-
-.card {
-  margin: 1vh;
-  padding: 1vh;
-  max-width: 95%;
-  font-family: "Times New Roman", Times, serif;
-}
-
-@media only screen and (min-width: 750px) {
-  .App-logo {
-    max-width: 85%;
-  }
-
-  .card {
-    margin: 2vh;
-    padding: 2vh;
-    max-width: 85%;
-  }
-}
-
-@media only screen and (min-width: 1000px) {
-  .App-logo {
-    max-width: 70%;
-  }
-
-  .card {
-    margin: 3vh;
-    padding: 3vh;
-    max-width: 70%;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  .App-logo {
-    max-width: 50%;
-  }
-
-  .card {
-    margin: 5vh;
-    padding: 5vh;
-    max-width: 50%;
-  }
-}
-
-
-.App-header {
-  background-color: #0a0a0a;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
-/* CSS */
-.button-20 {
-  margin-top: 2vh;
-  appearance: button;
-  background-color: #c70000;
-  background-image: linear-gradient(180deg, rgba(184, 125, 125, 0.15), rgba(255, 255, 255, 0));
-  border: 1px solid #c70000;
-  border-radius: 1rem;
-  box-sizing: border-box;
-  color: #FFFFFF;
-  cursor: pointer;
-  display: inline-block;
-  font-family: Inter, sans-serif;
-  font-size: 1.2rem;
-  font-weight: 500;
-  line-height: 1.5;
   margin: 0;
-  padding: .5rem 1rem;
-  text-align: center;
-  text-transform: none;
-  transition: color .20s ease-in-out, background-color .20s ease-in-out, border-color .20s ease-in-out, box-shadow .20s ease-in-out;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: middle;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  background-color: #373734;
 }
 
-.button-20:focus:not(:focus-visible),
-.button-20:focus {
-  outline: 0;
+.scorpiongame-color-1 {
+  color: #ec5247;
 }
 
-.button-20:hover {
-  background-color: #a30c0c;
-  border-color: #a30c0c;
+.scorpiongame-color-1-bg {
+  background-color: #ec5247;
 }
 
-.button-20:focus {
-  background-color: #c40c0c;
-  border-color: #c40c0c;
+.scorpiongame-color-2 {
+  color: #ffe229
 }
 
-.button-20:active {
-  background-color: #a30c0c;
-  background-image: none;
-  border-color: #a30c0c;
-  box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset;
+.scorpiongame-color-2-bg {
+  background-color: #ffe229;
 }
 
-.button-20:active:focus {
-  box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset, rgba(255, 255, 255, 0.5) 0 0 0 .2rem;
+.scorpiongame-color-3 {
+  color: #373734;
 }
 
-.button-20:disabled {
-  background-image: none;
-  box-shadow: none;
-  opacity: .65;
-  pointer-events: none;
+.scorpiongame-color-3-bg {
+  background-color: #373734;
+}
+
+.scorpiongame-color-4 {
+  color: #fff4c6;
+}
+
+.scorpiongame-color-4-bg {
+  background-color: #fff4c6;
+}
+
+.scorpiongame-color-5 {
+  color: #2b2b28;
+}
+
+.scorpiongame-color-5-bg {
+  background-color: #2b2b28;
 }

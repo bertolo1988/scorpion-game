@@ -1,28 +1,45 @@
-import { useState } from "react";
 import "./App.css";
-import { Card } from "./Card/Card";
-import { CardData } from "./CardData";
-import { CardPicker } from "./CardPicker/CardPicker";
 
-import logo from "./images/scorpion-3.jpeg";
+import Topbar from "./Topbar/Topbar";
+
+function Logo() {
+  return (
+    <img
+      className="h-80 w-auto"
+      src="https://raw.githubusercontent.com/bertolo1988/scorpion-game/main/public/new-logo.svg"
+      alt="Your Company"
+    />
+  );
+}
+
+function ComingSoon() {
+  return (
+    <img
+      className="h-8 w-auto"
+      src="https://raw.githubusercontent.com/bertolo1988/scorpion-game/main/src/images/coming-soon.svg"
+      alt="Your Company"
+    />
+  );
+}
 
 function App() {
-  const [cardIndex, setCardIndex] = useState(null);
-
-  let content;
-  if (cardIndex != null) {
-    content = <Card text={CardData[cardIndex]} />;
-  } else {
-    content = <img src={logo} className="App-logo" alt="logo" />;
-  }
-
   return (
-    <div className="App full-height">
-      <header className="App-header full-height">
-        {content}
-        <CardPicker setCardIndex={setCardIndex} />
-      </header>
-    </div>
+    <>
+      <Topbar />
+      <div
+        style={{ marginTop: "-3rem" }}
+        class="h-screen flex items-center justify-center"
+      >
+        <div class="grid grid-cols-1">
+          <div className="flex items-center justify-center">
+            <Logo />
+          </div>
+          <div className="flex items-center justify-center">
+            <ComingSoon />
+          </div>
+        </div>
+      </div>
+    </>
   );
 }
 
