@@ -1,5 +1,10 @@
 import { Disclosure } from "@headlessui/react";
-import { FaInstagram, FaSquareFacebook } from "react-icons/fa6";
+import {
+  FaInstagram,
+  FaSquareFacebook,
+  FaTiktok,
+  FaYoutube,
+} from "react-icons/fa6";
 
 export default function Topbar() {
   return (
@@ -22,6 +27,16 @@ export default function Topbar() {
               <div className="ml-2">
                 <a href="https://www.facebook.com/profile.php?id=61556749026220">
                   <FaSquareFacebook />
+                </a>
+              </div>
+              <div className="ml-2">
+                <a href="https://www.tiktok.com/@jogodooescorpiao">
+                  <FaTiktok />
+                </a>
+              </div>
+              <div className="ml-2">
+                <a href="https://www.youtube.com/@JogodoEscorpiao-umapicadadenon">
+                  <FaYoutube />
                 </a>
               </div>
             </div>
